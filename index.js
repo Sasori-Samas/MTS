@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
 //LEAK BY WEZ#1000
 const {
-    token,
     prefix,
 } = require('./config.json');
 const {
@@ -213,4 +212,4 @@ client.on('messageDelete', function(message, channel){
 })
 ///Bl
 
-client.login(token)
+client.login(process.env.token);
