@@ -101,7 +101,7 @@ registry(path.join(__dirname, './src/commands'));
      console.log(`${client.guilds.cache.size} serveurs | ${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} membres`)
 
      let statuses = [
-         "BetterGuard",
+         "[+] Protects Angeles",
          `${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} Membres`,
      ]
 //${client.guilds.cache.size} serveurs
