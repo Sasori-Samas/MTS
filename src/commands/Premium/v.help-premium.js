@@ -53,7 +53,7 @@ module.exports = {
         } else {
             const embed = new Discord.MessageEmbed()
                 .setColor(color)
-        .setAuthor("📃 • Page d'aide de BetterGuard")
+        .setAuthor("📃 • Page d'aide d'Angeles Protect")
                 .setDescription(` ${lang.helpprefix} **${prefixbot}**\n ${lang.helpdesc} **${client.commands.size}**` )
                 .addField(`${emojis.staff}・**${lang.HelpDescriptionCategoryAdministration}**`,"\`embed\`, \`banlist\`, \`adminlist\`, \`vocal\`, \`addemoji\`, \`prefix\`, \`language\`, \`color\`, \`gstart\`, \`greroll\` \`setlogs\`, \`logs\`, \`setmuterole\`, \`sanction\`, \`setup\`, \`tempvocal\`, \`ticket\`, \`rolereaction\`, \`owner\`, \`whitelist\`, \`wl\`, \`wlc\`, \`antiw (antiword config)\`, \`config\`,  \`massadd\`\, \`massremove\`")
                 .addField(`${emojis.user}・**${lang.HelpDescriptionCategoryWhitelist}**`," \`secur\`, \`secur-max (on/off)\`, \`secur-opti (on/off)\`, \`Antispam\`, \`Antilink\`, \`Antiwebhook\`, \`Antiban\`, \`Antichannel\`, \`Antieveryone\`, \`Antirole\`, \`Antibot\`, \`Antiword\`, \`logsban\`, \`logsc\`, \`logsmsg\`, \`logsroles\`\, \`deletewebhooks\`\,")
